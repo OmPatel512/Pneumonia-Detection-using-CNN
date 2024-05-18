@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Detection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+</head>
+<body>
+    <div class="main-heading">
+        <span>Pneumonia Detection</span>
+        <p>Upload the Digital X-ray in jpeg format.</p>
+    </div>
+
+    <div class="input-file">
+        <label for="img">Upload a Digital X-ray:</label>
+        <input type="file" id="img" name="img" accept="image/png, image/jpeg" />
+    </div>
+
+    <div class="output">
+        <h2 id="res">Greetings</h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
